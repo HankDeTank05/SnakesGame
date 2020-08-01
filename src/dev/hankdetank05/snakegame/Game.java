@@ -51,6 +51,14 @@ public class Game implements Runnable{
         //////////////////
         /*  draw here!  */
 
+        g.drawImage(Assets.snakeHead, 0, 0, null);
+        g.drawImage(Assets.snakeBody, 1*32, 0, null);
+        g.drawImage(Assets.snakeBody, 2*32, 0, null);
+        g.drawImage(Assets.snakeBody, 3*32, 0, null);
+        g.drawImage(Assets.snakeBody, 4*32, 0, null);
+        g.drawImage(Assets.snakeBody, 5*32, 0, null);
+        g.drawImage(Assets.snakeTail, 6*32, 0, null);
+
 
 
         /* end drawing! */
